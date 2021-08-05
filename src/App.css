@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container-fluid {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.26px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  position: relative;
+}
+
+.form-containter {
+  width: 480px;
+  margin: 0 auto;
+  color: #333333;
+  text-align: left;
+}
+.form {
+  margin-bottom: 40px;
+}
+.form-h {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.form-p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+.form-link {
+  color: #286efa;
+  font-weight: 700;
+  text-decoration: none;
+}
+.form input,
+.form select {
+  height: 50px;
+  color: #777;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ededed;
+  font-family: 'Roboto', sans-serif;
+}
+#next-button:disabled {
+  height: 50px;
+  border: unset;
+  font-weight: 700;
+  background: #ededed;
+}
+
+#next-button:enabled {
+  height: 50px;
+  color: #fff;
+  border: unset;
+  font-weight: 700;
+  background: #286efa;
+}
+
+.right {
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  background: #286efa;
+}
+.dummy {
+  color: #fff;
+  margin: 0 auto;
+  max-width: 340px;
+}
+.dummy-h {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 78px;
+  text-align: center;
+}
+.dummy-p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.dots {
+  position: absolute;
+
+  top: 30px;
+  right: 48px;
+}
+.dots span {
+  font-size: 13px;
+  margin-right: 12px;
+  font-weight: 700;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #aaa;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+.active {
+  background: #333333 !important;
+}
