@@ -1,0 +1,27 @@
+# Q & A
+
+=======
+
+# How do relative, fixed, absolute, and statically positions differ?
+
+A:
+
+# What is the difference between variables created using let, var, and const?
+
+A:
+
+# What must be developed first, desktop or mobile view, and why?
+
+A:
+
+# What is the difference between an alert and an alert dialog? Also, walk us through the appropriate instances to use them.
+
+A:
+
+# What is the difference between a link, a generic button and a submit button? Walk us through the appropriate instances to use them.
+
+A:
+
+# React (how the component cycle works, if you have experience with Redux Reducers/Actions, Webpack, code efficiency, optimization, and performance).
+
+A:
